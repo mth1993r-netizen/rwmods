@@ -11,15 +11,15 @@
 
     <application
         android:allowBackup="false"
-        android:label="RW Mods"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
         android:supportsRtl="true"
         android:requestLegacyExternalStorage="true"
-        android:theme="@android:style/Theme.Translucent.NoTitleBar">
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
 
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:excludeFromRecents="true"
             android:launchMode="singleTask">
 
             <intent-filter>
